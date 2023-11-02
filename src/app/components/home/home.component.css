@@ -1,0 +1,122 @@
+a{
+    color: gray;
+}
+.collection-img{
+    object-fit: cover;
+    width: 100%;
+   
+  }
+  .collection{
+    position: relative;
+    overflow: hidden;
+  
+  }
+  .collection:hover .collection-animate{
+    /* animation-name: collection-animate;
+    animation-duration: .1s; */
+    background-color: hsla(0, 0%, 98%, 0.1);
+    left: 100%;
+    top: 100%;
+   transition: all 1s ease-in-out;
+    
+  }
+  .collection:hover .collection-img {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+  }
+  
+  .collection-content{
+    position: absolute;
+    top: 20px;
+   left: 20px;
+  }
+  .span{
+    bottom: 20px;
+    left: 20px;
+    position:absolute;
+  }
+  .collection-animate{
+  background-color: hsla(0, 0%, 98%, 0.1);;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  left:-100%;
+  /* bottom: 0;
+  left: 0;
+  right: 0; */
+  transform: rotate(45deg);
+  
+  
+  }
+  /* ********** */
+  .myimg-feature{
+  width: 150px;
+  height: 150px;
+    
+  }
+  .imgfeature{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  /* /* .banner{
+ 
+  height: 490px; */
+  /* flex-direction: column;
+}  */
+.banner-img1,.banner-img2{
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+    
+  }
+  /* .banner-img1{
+    left: -100px;;
+  } */
+  /* .banner-img2{
+    top:-100px;
+    right: -100px;
+    left:700px;
+    bottom: -100px;
+   
+  } */
+  .banner-content{
+    position: absolute;
+    top:20%;
+    bottom: 50%;
+    left:30px;
+  }
+  .banner:hover .banner-img1 img{
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+  }
+  .banner:hover .banner-img2 img {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+  }
+  .banner:hover .collection-animate{
+    /* animation-name: collection-animate;
+    animation-duration: .1s; */
+    background-color: hsla(0, 0%, 98%, 0.1);
+    left: 100%;
+    top: 100%;
+   transition: all 1s ease-in-out;
+  }
+  /* / */
+  
+  /* .bag-shop{
+    position: absolute;
+    top: 60px;;
+    color: aqua;
+  }
+  .myshop{
+    position: relative;
+  } */
+  #bag{
+    position: absolute;
+   
+  }
+  .figure-img{
+    position: relative;
+  }

@@ -1,0 +1,11 @@
+<div class="  bg-light p-5 text-center text-dark">
+    <div class="container">
+        <img src="{{product.productimg}}" class="w-25%">
+      <h3 class="text-info">{{ product.id }} : {{ product.productName }}</h3>
+      <p>Price: {{ product.price }}</p>
+      <p>Quantity: {{ product.quantity }}</p>
+      <button [routerLink]="['/products']" class="btn btn-outline-primary">
+        Back to Products
+      </button>
+    </div>
+ 
